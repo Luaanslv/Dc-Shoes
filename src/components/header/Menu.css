@@ -1,0 +1,94 @@
+
+.header--info{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 20px 1px 20px;
+    top: 0;
+    align-items: center;
+}
+.header--info p{
+    margin-top: -1px;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.header--info ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: -1px;
+    align-items: center;
+}
+.header--info li{
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    align-items: center;
+}
+.header--logo{
+    text-align: left;
+    align-items: center;
+}
+.header--logo img{
+    width: 100%;
+    max-width: 50px;
+    margin:10px 0px 0px 45px;
+}
+.header--menu ul {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    justify-content: space-between;
+    width: 25%;
+}
+.header--menu li{
+    list-style: none;
+    margin-top: -8%;
+    font-size: 30px;
+}
+.header--menu button{
+    border: none;
+    outline: none;
+    background: transparent;
+    text-transform: uppercase;
+}
+.menu--color{
+    color: red;
+}
+.header--search{
+    float:right;
+    margin-right:270px;
+    margin-top: -30px;
+   text-align: center;
+   align-items: center;
+}
+.header--search input{
+    width: 100px;
+    padding: 4px;
+    position: absolute;
+}
+.header--search input::placeholder{
+    padding-left: 20px;
+}
+.header--search button{
+    top: 0;
+    right: 0;
+    position: relative;
+    border: none;
+    outline: none;
+    background: transparent;
+    line-height: 25px;
+}
+.header--search i{
+    color: rgba(128, 128, 128, 0.753);
+}
+.header--shopbag{
+    float: right;
+    margin-right: 50px;
+    margin-top: -38px;
+    font-size: 35px ;
+    color: rgba(128, 128, 128, 0.623);
+}
+
+
