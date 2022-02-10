@@ -1,3 +1,4 @@
+import Carousel from "./components/header/carousel/Carousel";
 import Menu from "./components/header/Menu";
 
 
@@ -7,6 +8,7 @@ function App() {
       <header>
         <div>
           <Menu />
+          <Carousel/>
         </div>
      </header>
     </div>

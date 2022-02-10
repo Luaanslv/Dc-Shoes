@@ -79,10 +79,12 @@
     outline: none;
     background: transparent;
     line-height: 25px;
+    margin-left: 2px;
 }
 .header--search i{
     color: rgba(128, 128, 128, 0.753);
 }
+
 .header--shopbag{
     float: right;
     margin-right: 50px;
