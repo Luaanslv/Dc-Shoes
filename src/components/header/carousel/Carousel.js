@@ -1,35 +1,36 @@
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import { useEffect, useRef } from "react";
 import './Carousel.css'
-import {useRef} from 'react'
 
-function Carousel() {
+import React, { Component } from "react";
+import Slider from "react-slick";
 
-    const carousel1 = useRef(null);
-    const carousel2 = useRef(null);
+export default class Carousel extends Component {
 
-    const handleLeftClick = (e) => {
-        
-    }
-    const handleRightClick = (e) => {
-       
-    }
 
-    return (
-        <div>
-            <div className="carousel" >
-                <div className="carousel--item"ref={carousel1}>
-                    <span><strong>Não quer esperar?</strong> <button>compre pelo whatsapp</button></span>
-                </div>
-                <div className="carousel--item2" ref={carousel2}>
-                    <span><strong>SALE INICIADA! ATÉ 40% OF </strong><button>compre agora!</button></span>
-                </div>
+    render() {
+        const settings = {
+            dots: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            slidesToScroll: 1
+        };
+        return (
+            <div className="carousel">
+                <h2> Single Item</h2>
+                <Slider {...settings}>
+                    <div>
+                        <h3>1</h3>
+                    </div>
+                    <div>
+                        <h3>2</h3>
+                    </div>
+                </Slider>
+                <button>right</button>
+                <button>left</button>
             </div>
-            <div className="buttons">
-                <button className='left' onClick={handleLeftClick}><i class="fa fa-angle-left"></i></button>
-                <button className='right' onClick={handleRightClick}><i className="fa fa-angle-right"></i></button>
-            </div>
-        </div>
-        
-    )
+        );
+    }
 }
-
-export default Carousel;
