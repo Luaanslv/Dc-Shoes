@@ -1,0 +1,21 @@
+.Content--banner{
+    text-align: center;
+    width: 100%;
+}
+.content-area{
+    width: 1905px;
+    height: 697.5px;
+}
+.card-area{
+    display: flex;
+    margin: auto ;
+}
+.card{
+    margin: auto;
+    margin-top: 5%;
+}
+.card img{
+    max-width: 575px;
+    width: 100%;
+    height: auto;
+}

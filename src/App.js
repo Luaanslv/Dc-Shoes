@@ -1,5 +1,6 @@
 import Carousel from "./components/header/carousel/Carousel";
 import Menu from "./components/header/Menu";
+import Content from "./components/main/Content";
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
         </div>
       </header>
       <main>
-        
+        <Content/>
       </main>
     </div>
   );
