@@ -9,7 +9,7 @@
 .header--info p{
     margin-top: -1px;
     font-size: 14px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .header--info ul{
     display: flex;
@@ -32,7 +32,7 @@
 .header--logo img{
     width: 100%;
     max-width: 50px;
-    margin:10px 0px 0px 45px;
+    margin:25px 0px 0px 40px;
 }
 .header--menu ul {
     display: flex;

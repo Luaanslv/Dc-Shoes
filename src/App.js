@@ -10,7 +10,10 @@ function App() {
           <Menu />
           <Carousel/>
         </div>
-     </header>
+      </header>
+      <main>
+        
+      </main>
     </div>
   );
 }
