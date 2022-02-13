@@ -31,16 +31,20 @@ export default class Carousel extends Component {
             <div className="carousel--area">
                 <div className="carousel">
                     <Slider ref={c =>(this.slider = c)} {...settings}>
-                        <div className="carousel--item" key={1}>
-                            <span>Não quer esperar ? compre pelo whatsapp</span>
+                        <div className="carousel--item" >
+                            <span key={1}>Não quer esperar ? compre pelo whatsapp</span>
                         </div>
-                        <div className="carousel--item" key={2}>
-                            <span>SALE INICIADA! ATÉ 40% OF compre agora!</span>
+                        <div className="carousel--item" >
+                            <span key={2}>SALE INICIADA! ATÉ 40% OF compre agora!</span>
                         </div>
-                
+                       
                     </Slider>
-                    <button className="carousel--button left"><i className="fa fa-angle-left" onClick = {this.previous} ></i></button>
-                    <button className="carousel--button right"><i className="fa fa-angle-right" onClick={this.next} ></i></button>
+
+
+                </div>
+                <div className="carousel--button">
+                    <i className="fa fa-angle-left  left" onClick={this.previous} ></i>
+                    <i className="fa fa-angle-right right" onClick={this.next} ></i>
                 </div>
             </div>
         );

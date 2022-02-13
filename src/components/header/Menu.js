@@ -13,20 +13,20 @@ function Menu() {
                     <li><i className="fas fa-asterisk"></i> entrar</li>
                 </ul>
             </div>
-            <section className="header--logo">
+            <div className="header--logo">
                     <img src={logo} alt="logo" />
-            </section>
+            </div>
             <nav className="header--menu">
                 <ul>
-                    <li><button>masculino</button></li>
-                    <li><button>feminino</button></li>
-                    <li><button>juvenil</button></li>
-                    <li><button>skate</button></li>
-                    <li><button className="menu--color">outlet</button></li>
+                    <li>masculino</li>
+                    <li>feminino</li>
+                    <li>juvenil</li>
+                    <li>skate</li>
+                    <li className="menu--color">outlet</li>
                 </ul>
             </nav>
             <div className="header--search">
-                <input type="text" placeholder="Procurar" />
+                <input type="text" placeholder="Procurar" autoComplete="off"/>
                 <button><i className="fa fa-search"></i></button>
             </div>
             <div className="header--shopbag">
