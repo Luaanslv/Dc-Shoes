@@ -12,13 +12,28 @@ return(
         </div>
         <div className="card-area">
             <div className='card'>
-            <img src={Card1} alt="card1" />
+                <img src={Card1} alt="card1" />
+                <div className="card--desc">
+                    <h3>T-SHIRT</h3>
+                    <p>PRECISANDO DE UMA CAMISETA NOVA?</p>
+                    <h3><button>SHOP NOW</button></h3>
+                </div>
             </div>
             <div className="card">
-            <img src={Card2} alt="card1" />
+                <img src={Card2} alt="card1" />
+                <div className="card--desc">
+                    <h3>CALÇAS</h3>
+                    <p>CONFIRA TODOS OS MODELOS</p>
+                    <h3><button>SHOP NOW</button></h3>
+                </div>
             </div>
             <div className="card">
-            <img src={Card3} alt="card1" />
+                <img src={Card3} alt="card1" />
+                <div className="card--desc">
+                    <h3>JAQUETAS</h3>
+                    <p>QUAL COMBINA COM VOCÊ?</p>
+                    <h3><button>SHOP NOW</button></h3>
+                </div>
             </div>
         </div>
     </div>
