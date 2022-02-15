@@ -1,20 +1,30 @@
 import Carousel from "./components/header/carousel/Carousel";
 import Menu from "./components/header/Menu";
 import Content from "./components/main/Content";
+import Info from "./components/footer/Info";
+import CardBanner from "./components/main/CardBanner";
+import Cards2 from "./components/main/Cards2";
+import Banner2 from "./components/main/Banner2";
+import Cards from "./components/main/Cards";
 
 
 function App() {
   return (
     <div className="App">
       <header>
-        <div>
           <Menu />
           <Carousel/>
-        </div>
       </header>
       <main>
-        <Content/>
+        <Content />
+        <Cards/>
+        <Banner2 />
+        <Cards2 />
+        <CardBanner/>
       </main>
+      <footer>
+        <Info/>
+      </footer>
     </div>
   );
 }

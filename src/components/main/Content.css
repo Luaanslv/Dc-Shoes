@@ -1,3 +1,6 @@
+img{
+    cursor: pointer;
+}
 .Content--banner{
     text-align: center;
     width: 100%;
@@ -5,42 +8,6 @@
 .content-area{
     width: 1905px;
     height: 697.5px;
-}
-.card-area{
-    display: flex;
-    margin: auto ;
-}
-.card{
-    margin: auto;
-    margin-top: 5%;
-}
-.card img{
-    max-width: 575px;
-    width: 100%;
-    height: auto;
-}
-.card--desc{
-    margin: 1%;
-}
-.card--desc h3{
-    margin-top: 2%;
-}
-.card--desc p{
-    margin-top: 2%;
-    font-size: 14px;
-}
-.card--desc button{
-    border: none;
-    outline: none;
-    font-size: 16px;
-    cursor: pointer;
-    font-weight: bolder;
-    transition: all ease .2s;
-    background: transparent;
-}
-
-.card--desc button:hover{
-    padding-left: 2rem;
 }
 .before {
     opacity: 0;
@@ -63,25 +30,5 @@
     margin-right: 2%;
 }
 
-.banner2--area{
-    text-align: center;
-    margin-top: 4%;
-}
-.card-banner img{
-    max-width: 870px;
-    height: auto;
-}
-.card-banner{
-    display: flex;
-    display: -webkit-box;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    -webkit-box-pack: justify;
-    height: auto;
-}
-.card-banner-area{
-    display: flex;
-    height: auto;
-    padding: 0 40px;
-    margin: 60px 0 0 35px;
-}
+
+
