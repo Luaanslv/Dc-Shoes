@@ -6,6 +6,7 @@ import CardBanner from "./components/main/CardBanner";
 import Cards2 from "./components/main/Cards2";
 import Banner2 from "./components/main/Banner2";
 import Cards from "./components/main/Cards";
+import Banner3 from "./components/footer/Banner3";
 
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
         <CardBanner/>
       </main>
       <footer>
-        <Info/>
+        <Info />
+        <Banner3/>
       </footer>
     </div>
   );
