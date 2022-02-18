@@ -6,6 +6,8 @@ import CardBanner from "./components/main/CardBanner";
 import Cards2 from "./components/main/Cards2";
 import Banner2 from "./components/main/Banner2";
 import Cards from "./components/main/Cards";
+import InfoAd from "./components/footer/InfoAd";
+import Callback from "./components/footer/Callback";
 
 
 
@@ -25,6 +27,8 @@ function App() {
       </main>
       <footer>
         <Info />
+        <Callback/>
+        <InfoAd/>
       </footer>
     </div>
   );

@@ -1,0 +1,94 @@
+.infoad--area{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    margin-top: 13%;
+    padding: 5%;
+    padding-bottom: 3%;
+    color: #fff;
+    align-items: center;
+}
+.local{
+    margin-bottom: 50px;
+    display: block;
+    margin-left: 10%;
+}
+.local p{
+    margin-bottom: 10px;
+}
+.local input{
+    background: transparent;
+    outline: none;
+    padding: 10px;
+    width: 320px;
+    color: rgb(182, 178, 178);
+    margin-top: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.705);
+}
+.sociais{
+    margin-left: 10%;
+}
+
+.sociais > i{
+    color: #fff;
+}
+.sociais ul{
+    display: flex;
+    list-style: none;
+    margin: 10px;
+}
+.sociais li{
+    margin: 10px;
+    font-size: 25px;
+}
+.atendimento{
+    margin-top: -12.4%;
+    margin-right: 10%;
+    margin-left: 40%;
+    align-items: center;
+}
+
+.atendimento ul{
+    margin-top: 15px;
+    list-style: none;
+}
+.atendimento li{
+    margin-top: 5px;
+    font-size: 14px;
+}
+.Boardriders{
+    margin-top: -13.80%;
+    align-items: center;
+    margin-left: 65%;
+    
+}
+.Boardriders ul{
+    list-style: none;
+    margin-top: 15px;
+}
+.Boardriders li{
+    font-size: 14px;
+    margin-top: 5px;
+}
+.linguagem-logo{
+    color: #fff;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    border-top:  1px solid rgb(78, 74, 74);
+    padding-top: 30px;
+}
+.linguagem-logo > p{
+    margin-left: 10px;
+}
+
+.linguagem-logo > img{
+    width: 30px;
+    margin-left: 35%;
+}
+
+
+
+
+  
