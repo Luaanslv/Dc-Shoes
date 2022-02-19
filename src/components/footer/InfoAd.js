@@ -7,6 +7,7 @@ function InfoAd() {
                 <div className="local">
                     <p><strong>ENCONTRE A LOJA MAIS PROXIMA</strong></p>
                     <input type="text" placeholder='Cidade ou CEP' />
+                    <button><i className='fas fa-map-marker-alt'></i></button>
                 </div>
                 <div className="sociais">
                     <p><strong>NOS SIGA NAS REDES SOCIAIS:</strong></p>
@@ -42,9 +43,9 @@ function InfoAd() {
                     </ul>
                 </div>
             <div className="linguagem-logo">
-                <i class="fa fa-globe"></i>
+                <i className="fa fa-globe"></i>
                 <p>Escolha sua região</p>
-                <img src={logo2} alt="logo2" />
+                <img src={logo2} alt="logo2" className="img-logo2"/>
             </div>
         </div>
     )

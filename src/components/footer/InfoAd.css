@@ -24,6 +24,17 @@
     color: rgb(182, 178, 178);
     margin-top: 10px;
     border: 1px solid rgba(128, 128, 128, 0.705);
+    position: absolute;
+}
+.local > button{
+    position: relative;
+    border: none;
+    outline: none;
+    background: transparent;
+    line-height: 55px;
+    font-size: 16px;
+    margin-left: 19%;
+    color: #fff;
 }
 .sociais{
     margin-left: 10%;
@@ -41,11 +52,15 @@
     margin: 10px;
     font-size: 25px;
 }
+.sociais li:hover{
+    color: rgba(92, 89, 89, 0.979);
+    cursor: pointer;
+}
 .atendimento{
     margin-top: -12.4%;
-    margin-right: 10%;
     margin-left: 40%;
     align-items: center;
+    width: 300px;
 }
 
 .atendimento ul{
@@ -55,12 +70,20 @@
 .atendimento li{
     margin-top: 5px;
     font-size: 14px;
+    cursor: pointer;
+    width: 140px;
+}
+.atendimento li:hover{
+    color: rgba(92, 89, 89, 0.979);
 }
 .Boardriders{
     margin-top: -13.80%;
     align-items: center;
     margin-left: 65%;
-    
+    cursor: pointer;
+}
+.Boardriders li:hover{
+    color: rgba(92, 89, 89, 0.979);
 }
 .Boardriders ul{
     list-style: none;
@@ -76,7 +99,7 @@
     margin-left: 10%;
     margin-right: 10%;
     display: flex;
-    border-top:  1px solid rgb(78, 74, 74);
+    border-top:  1px solid rgb(46, 45, 45);
     padding-top: 30px;
 }
 .linguagem-logo > p{
@@ -86,6 +109,9 @@
 .linguagem-logo > img{
     width: 30px;
     margin-left: 35%;
+}
+.img-logo2:hover{
+    background: rgba(92, 89, 89, 0.979);
 }
 
 

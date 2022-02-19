@@ -42,4 +42,9 @@
     background: transparent;
     border: #fff solid 1px;
     color: #fff;
+    cursor: pointer;
+  }
+  .cadastro--area > button:hover{
+    background-color: #fff;
+    color: #000;
   }

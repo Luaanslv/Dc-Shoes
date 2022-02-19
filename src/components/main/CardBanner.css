@@ -16,6 +16,10 @@
     padding: 0 40px;
     margin: 60px 0 0 30px;
 }
-.card--desc{
-    margin: 30px 0 20px 0;
+.card--desc > h3,
+.card--desc > p{
+    margin: 10px 0 20px 0;
+}
+.card--desc > h3{
+    font-size: 25px;
 }

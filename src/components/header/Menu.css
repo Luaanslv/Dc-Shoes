@@ -25,15 +25,18 @@
     font-size: 12px;
     align-items: center;
 }
+
 .header--logo{
     text-align: left;
     align-items: center;
 }
+
 .header--logo img{
     width: 100%;
     max-width: 50px;
     margin:20px 0px 0px 40px;
 }
+
 .header--menu ul {
     display: flex;
     text-align: center;
@@ -56,6 +59,25 @@
     margin: auto;
     align-items: center;
 }
+.menu--area{
+    position: relative;
+    z-index: 999;
+    background-color: #fff;
+    width: 100%;
+    overflow:hidden;    
+    transition: all .6s ease-in-out;
+    -webkit-transition: all .6s ease-in-out;
+}
+.sticky-nav{
+    position: fixed;
+    top: 0;
+    left: 0%;
+    opacity: 0;
+    animation: navbar 1.5s linear forwards;
+}
+@keyframes navbar {
+    100% { opacity: 1; }
+  }
 .menu--color{
     color: red;
 }
